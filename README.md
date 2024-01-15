@@ -40,4 +40,4 @@ This has been built with the version 18.18 of Node JS
 ### Exam information - to be completed
 - Student (Lastname and Firstname) : Sterniczuk Igor
 - Git repository URL : https://github.com/igor-sterniczuk-vinci/devops-exam-2024
-- Azure Static Web app URL : 
+- Azure Static Web app URL ::
