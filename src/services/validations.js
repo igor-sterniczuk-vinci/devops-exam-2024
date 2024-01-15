@@ -4,4 +4,3 @@ const validation = (gamertag) => {
 };
 
 exports.isValid = validation;
-
