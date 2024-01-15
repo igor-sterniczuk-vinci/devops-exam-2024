@@ -37,7 +37,7 @@ When running the preview command, the changes done in "src" folder are applied O
 Don't hesitate to run the command to check the final output of your application.
 This has been built with the version 18.18 of Node JS
 
-### Exam information - to be completed
+### Exam information -- to be completed
 - Student (Lastname and Firstname) : Sterniczuk Igor
 - Git repository URL : https://github.com/igor-sterniczuk-vinci/devops-exam-2024
-- Azure Static Web app URL : 
+- Azure Static Web app URL :
