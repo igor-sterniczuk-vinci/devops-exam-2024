@@ -2,7 +2,7 @@
 const { isValid } = require('../validations');
 
 test("should return false if the gamertag does not have 8 characters", () => {
-    const result = validation("aaaaaaa");
+    const result = isValid("aaaaaaa");
     expect(result).toBe(false);
 });
 
