@@ -20,3 +20,8 @@ test('should return true if the gamertag has more than 8 characters and a specia
     const result = isValid('abc&defghi');
     expect(result).toBe(true);
 });
+
+test("should return true if the gamertag has more than 8 characters, a special character, and a number", () => {
+    const result = isValid("abc&d1efghi");
+    expect(result).toBe(true);
+});
