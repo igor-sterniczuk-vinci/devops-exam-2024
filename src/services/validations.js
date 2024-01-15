@@ -1,4 +1,10 @@
 // TODO: Refactor validation function to follow the defined validations rules
-const isValid = () => Math.random() >= 0.5;
+const validation = (gamertag) => {
+    return (
+        gamertag.length === 8 &&
+        /[!@#$%^&*(),.?":{}|<>]/.test(gamertag) &&
+        /[0-9]/.test(gamertag)
+    );
+};
 
-exports.isValid = isValid;
+exports.isValid = validation;
