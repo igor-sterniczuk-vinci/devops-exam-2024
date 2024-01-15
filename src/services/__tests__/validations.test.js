@@ -11,6 +11,11 @@ test('should return true if the gamertag has 8 characters but without a special 
     expect(result).toBe(false);
 });
 
+test("should return false if the gamertag does not have a number", () => {
+    const result = isValid("abc&defgh");
+    expect(result).toBe(false);
+});
+
 test("should return true if the gamertag has 8 characters, a special character, and a number", () => {
     const result = isValid("abc&d1ef");
     expect(result).toBe(true);
